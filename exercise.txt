@@ -1,0 +1,146 @@
+##################################################################
+The exercises below are for reference to my youtube channel        
+(youtube.com/c/LetsCodeTogether).
+
+All the main topics covered are  with asterik(*) 
+signs so that you know which video to reference if you find 
+the code unknown.
+
+If you have any suggestion pls do share feedbacks.
+cheers, HappyCoding
+##################################################################
+
+
+
+
+
+
+        {% comment %} ************operators*************
+
+1. Take two number as user input and perform:
+   a. Addition
+   b.Subtraction
+   c. Multiplication
+   d.Division
+   e.Modulo
+
+
+2.Take a number as a user input and perform
+  a. Pre Increment
+  b.Post Increment
+
+
+3.Take a number as input fro user and perform :
+  a. left shift by 2
+  b.Right shift by 2.
+
+
+4. take two number and use the different relational operator:
+ 
+
+
+      
+
+            ************* if-else  and swich cases*************
+
+1. Make a simple calculator which take two double inputs from user and a character based on which perform:(solve using IF ELSE statements only)
+     a. Addition
+     b.Subtraction
+     c.Multiplication
+     d.Division
+     e.remainder
+
+
+
+2. Make a simple calculator which take two double inputs from user and a character based on which perform:(solve using SWITCH CASES only)
+     a. Addition
+     b.Subtraction
+     c.Multiplication
+     d.Division
+     e.remainder  {% endcomment %}
+
+
+
+
+
+     *************for loop problems;  while loop*************
+
+1.print all numbers that is multiple of the given numbers using for/while loop:
+        a. 3
+        b.5
+        c.7
+
+2. create an array of any type and initialise them using for/while loop and print the values out too;
+
+
+
+
+             *************function problems*************
+1. Declare a variable '_name' which take string input from an user pass the name  to the function as reference and print out "Hello!"  in front of the name when we print-out(cout) the _name variable.
+
+
+2.Using Control Flow and function perform the following based on user input(take two int from user and an operator):
+     a. Addition
+     b.Subtraction
+     c.Multiplication
+     d.Division
+
+3.Pass a list of int to a function and perform:
+     a. Addition
+     b.Subtraction
+     c.Multiplication
+     d.Division
+  
+
+
+               ************* Dynamic memory allocation *************
+
+1. using DMA create a 1D array of type int/float/double taking the length and values from the user. Print the values out too.
+
+2.Create a 2D array using DMA of type int/float/double  taking the length and values from the user. Print the values out too.
+
+
+
+
+
+            ************* Recurssive Function*************
+
+1. Using recursive function find a solution to find ans to these problems(x,n and the powers are given by user):
+         a=> x + (x + 1) + (x + 2) + (x + 3) + ........... + n;
+         b=> x^2 + (x + 1)^2 + (x + 2)^2 + (x + 3)^2 + ........... + n^2;
+         c=> x^3 + (x + 1)^3 + (x + 2)^3 + (x + 3)^3 + ........... + n^3;
+         d=> x^4 + (x + 1)^4 + (x + 2)^4 + (x + 3)^4 + ........... + n^4;
+ 
+
+
+             
+             CLASS (constructor,function)
+
+1.  Declare a class with name "students" with data memembers(name,college_name,age,class,roll_number) using the conditions below:
+*** All functions and constructor conditions/functionality to be declared outside the class
+         a. roll_number to be passed as argument to constructor;
+         b. all the data members are private
+         c. Declare a function that takes all the details
+         d. print out all the details using a functions
+
+
+2. do with DMA and add 10 student with same details
+
+
+
+             Class(Friend function)
+
+1. Create a Currency converter with main class as input of the currency and the other classes as follow:
+    a. Class 2 => Convert to US Dollar(1$ = ₹74)
+    b.Class 3 => Convert to Euro (1euro = ₹85)
+    c. Class 4 => Convert to South Korea Won(100Won = ₹6)
+    d. Class 5 => Convert to Nepali Rupees(100NR = ₹62)
+2. try doing this in fn also;
+
+
+
+
+              operator overloading and fn overloading
+
+1. create a class named Time that takes have minute and hour as its data members. Now create three objects of the class, two of which takes minutes as arguments and the third prints the sum (if minutes = 60 ,make hours = 1);
+(operator overloading to be used => +, <<)
