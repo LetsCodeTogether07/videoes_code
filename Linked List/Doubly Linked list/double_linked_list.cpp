@@ -11,7 +11,8 @@ public:
   Node *prev;
 };
 
-// insertion(front)
+//************************* inserting Nodes in the front/ as head
+
 void add_node(Node **node_ref, int n)
 {
 
@@ -30,7 +31,9 @@ void add_node(Node **node_ref, int n)
   (*node_ref) = new_node;
 }
 
-// insertion(end)
+//****************** inserting Nodes at the end  as tail
+
+
 void end(Node **ref_node, int n)
 {
   Node *new_node = new Node();
@@ -53,7 +56,7 @@ void end(Node **ref_node, int n)
   new_node->prev = last;
 }
 
-//insertion(any pos)
+//*************************inserting Nodes at any random position as prefered by user
 
 void after(Node *ref_node, int n)
 {
@@ -77,7 +80,7 @@ void after(Node *ref_node, int n)
     new_node->next->prev = new_node;
 }
 
-//deleting
+//*********************************************8deleting of Nodes
 
 void deleting(Node **ref_node, Node *del)
 {
@@ -96,11 +99,12 @@ void deleting(Node **ref_node, Node *del)
   free(del);
   return;
 }
-//display
+//*************************************displaying the Nodes
 void display(Node *node)
 {
   Node *temp;
 
+ // ************ Forward direction
   while (node != NULL)
   {
     cout << node->data << endl;
@@ -109,7 +113,7 @@ void display(Node *node)
   }
 
   cout << "\n";
-
+// **********  Backward Direction
   while (temp != NULL)
   {
     cout << temp->data << endl;
