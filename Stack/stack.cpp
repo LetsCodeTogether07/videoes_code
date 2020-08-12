@@ -140,6 +140,7 @@ int main()
     node1.del();
     cout << "After Delete: " << endl;
     node1.display();
+    
 
     return 0;
 }
